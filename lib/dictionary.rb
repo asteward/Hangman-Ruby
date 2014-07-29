@@ -1,7 +1,7 @@
 class Dictionary
   attr_reader :words_array, :word, :randum_num
   def initialize
-    @words_array = ["cat", "dog", "epicodus"]
+    @words_array = ["cat", "truck", "epicodus"]
     @word = nil
   end
   def get_random_num

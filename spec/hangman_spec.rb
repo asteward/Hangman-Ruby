@@ -48,7 +48,7 @@ describe 'Dictionary' do
   it 'returns a word' do
     new_dictionary = Dictionary.new()
     expect(new_dictionary.get_random_word(0)).to eq "cat"
-    expect(new_dictionary.get_random_word(1)).to eq "dog"
+    expect(new_dictionary.get_random_word(1)).to eq "truck"
     expect(new_dictionary.get_random_word(2)).to eq "epicodus"
   end
 end
